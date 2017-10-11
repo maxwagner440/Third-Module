@@ -17,6 +17,8 @@ nav{
 }
 body{
     background-image: url("retina_wood/retina_wood_@2X.png");
+   
+
     
 }
 p{
@@ -29,6 +31,8 @@ header{
     text-align: center;
     font-family: "Impact";
     font-size: 2em;
+    position: relative;
+  
     
 }
 .flex-container {
@@ -101,4 +105,71 @@ header{
 .backgroundimage{
     background-image: url("image11.jpg");
     
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-image: url("swirl_pattern/swirl_pattern.png");
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    margin-top: -100px;
+}
+.topnav2{
+    background-image: url("swirl_pattern/swirl_pattern.png");
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    height: 65x;
+    margin-top: -43px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #070606;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Impact";
+}
+.topnav2 a {
+    float: left;
+    display: block;
+    color: #070606;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Impact";
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.topnav2 a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.topnav2 a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.space{
+    margin-top: 100px;
+}
+.headerpa{
+    position:relative;
+    padding-top: 50px;
+
 }
