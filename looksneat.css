@@ -1,0 +1,104 @@
+#mainpic{
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    border-width: 15px;
+    border-color: rgb(15, 15, 70);
+    display: block;
+    margin: auto;
+    width: 40%;
+    border-radius: 50%;
+    
+}
+nav{
+    text-align: center;
+    font-size: 1.8em;
+    
+}
+body{
+    background-image: url("/Users/maxwagner/workspace/WebProject/maxwagner440.github.io/retina_wood/retina_wood_@2X.png");
+    
+}
+p{
+    font-family: "Impact";
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+header{
+    text-align: center;
+    font-family: "Impact";
+    font-size: 2em;
+    
+}
+.flex-container {
+    display: block;
+    
+    justify-content: center;
+    justify-content:space-between;
+    
+}
+#minipic{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    width: 15%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    position: fixed;
+    top:5px;
+    right:5px;
+
+}
+.buttonmain{
+    
+}
+.buttonR {
+    background-color: rgb(1, 8, 1); /* Green */
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    border-radius: 15px;
+    cursor: auto;
+}
+
+.buttonGH {
+    background-color: rgb(0, 0, 0); /* Green */
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 300px;
+    font-size: 50px;
+    position: relative;
+    left:100px;
+    border-radius: 15px;
+    cursor: auto;
+}
+.buttonE {
+    background-color: rgb(3, 3, 3); /* Green */
+    border: solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 300px;
+    font-size: 50px;
+    position: relative;
+    right:100px;
+    border-radius: 15px;
+    cursor: auto;
+}
+.backgroundimage{
+    background-image: url("image11.jpg");
+    
+}
