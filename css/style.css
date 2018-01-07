@@ -12,6 +12,15 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Dosis', sans-serif;
 }
 
+.fifo-img{
+	width: 50px;
+	height: 35px;
+}
+
+.fifo-img:hover{
+	width: 160px;
+	height: 120px;
+}
 /*Header*/
 .navbar-default .navbar-nav>li>a {
 color: #777;
@@ -21,7 +30,7 @@ text-transform: uppercase;
 	color: #f74d65;
 }
 header{
-	background: url(../images/header_bg.jpg);
+	background: url(../images/code.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -167,7 +176,7 @@ padding-top: 110px;
 
 /*Fun Facts*/
 .fun_facts{
-	background: url(../images/header_bg.jpg);
+	background: url(../images/notebook.jpg);
 	background-attachment: fixed !important;
 	background-repeat: repeat;
 	
@@ -226,6 +235,7 @@ margin-top: -40px;
 }
 .single_image img{
 	width: 100%;
+	height: 320px;
 
 }
 .single_image:hover div.image_overlay{
@@ -446,3 +456,11 @@ letter-spacing: 0px;
 	font-weight:700;
 	text-decoration:none;
 	}
+
+
+
+
+.port{
+	width: 10%;
+	height: 10%;
+}
